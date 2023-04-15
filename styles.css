@@ -1,0 +1,54 @@
+/* defaults */
+
+a {
+    color: inherit;
+    text-decoration:inherit;
+    text-align:center;
+    font-family:'Montserrat Alternates', sans-serif;
+    font-size:30px;
+    transition:0.3s;
+    margin: 0px;
+  }
+  
+
+
+  
+  /* Classes */
+  
+  
+  .menu-item {
+    padding:2%;
+    margin:2px 0px;
+    transition:0.5s;
+    background-color: #8A89B8;
+    color:#34084D;
+    opacity:0%;
+  }
+
+  .menu-item:hover {
+    color:white;
+    background-color: #ff909f;
+  }
+
+  
+  /* ids */
+  #mainmenuicon {
+    fill: #ff909f;
+    padding:1%;
+    cursor:pointer;
+    transition:0.5s;
+  }
+  
+  #mainmenuicon:hover {
+    fill:#8A89B8;
+  }
+  
+  #menu-list {
+    background-color: #34084D;
+    display:none;
+    transition:0.5s;
+    transform-origin:top;
+    transform:scale(1,0)
+  }
+  
+  
